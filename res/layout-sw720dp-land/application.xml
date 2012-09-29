@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<com.cyanogenmod.slingshot.BubbleTextView xmlns:android="http://schemas.android.com/apk/res/android"
+<tk.projectllama.slingshot.BubbleTextView xmlns:android="http://schemas.android.com/apk/res/android"
    style="@style/WorkspaceIcon.Landscape"
    android:focusable="true"
    android:background="@drawable/focusable_view_bg" />
