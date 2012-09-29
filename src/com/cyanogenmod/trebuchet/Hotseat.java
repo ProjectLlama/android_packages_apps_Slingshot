@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.trebuchet;
+package tk.projectllama.slingshot;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -25,7 +25,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.cyanogenmod.trebuchet.R;
+import tk.projectllama.slingshot.R;
 
 public class Hotseat extends FrameLayout {
     @SuppressWarnings("unused")

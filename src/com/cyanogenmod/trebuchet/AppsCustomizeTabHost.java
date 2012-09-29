@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.trebuchet;
+package tk.projectllama.slingshot;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -34,8 +34,8 @@ import android.widget.TabHost;
 import android.widget.TabWidget;
 import android.widget.TextView;
 
-import com.cyanogenmod.trebuchet.R;
-import com.cyanogenmod.trebuchet.preference.PreferencesProvider;
+import tk.projectllama.slingshot.R;
+import tk.projectllama.slingshot.preference.PreferencesProvider;
 
 import java.util.ArrayList;
 

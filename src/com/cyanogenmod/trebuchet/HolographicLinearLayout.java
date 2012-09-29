@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.trebuchet;
+package tk.projectllama.slingshot;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -25,7 +25,7 @@ import android.util.AttributeSet;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.cyanogenmod.trebuchet.R;
+import tk.projectllama.slingshot.R;
 
 public class HolographicLinearLayout extends LinearLayout {
 

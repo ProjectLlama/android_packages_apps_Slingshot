@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.trebuchet;
+package tk.projectllama.slingshot;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -26,7 +26,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.cyanogenmod.trebuchet.R;
+import tk.projectllama.slingshot.R;
 
 public class InfoDropTarget extends ButtonDropTarget {
 

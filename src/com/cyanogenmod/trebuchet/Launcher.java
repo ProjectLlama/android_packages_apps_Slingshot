@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.trebuchet;
+package tk.projectllama.slingshot;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
@@ -95,9 +95,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.common.Search;
-import com.cyanogenmod.trebuchet.R;
-import com.cyanogenmod.trebuchet.DropTarget.DragObject;
-import com.cyanogenmod.trebuchet.preference.*;
+import tk.projectllama.slingshot.R;
+import tk.projectllama.slingshot.DropTarget.DragObject;
+import tk.projectllama.slingshot.preference.*;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -153,7 +153,7 @@ public final class Launcher extends Activity
 
     // The Intent extra that defines whether to ignore the launch animation
     static final String INTENT_EXTRA_IGNORE_LAUNCH_ANIMATION =
-            "com.cyanogenmod.trebuchet.intent.extra.shortcut.INGORE_LAUNCH_ANIMATION";
+            "tk.projectllama.slingshot.intent.extra.shortcut.INGORE_LAUNCH_ANIMATION";
 
     // Type: int
     private static final String RUNTIME_STATE_CURRENT_SCREEN = "launcher.current_screen";

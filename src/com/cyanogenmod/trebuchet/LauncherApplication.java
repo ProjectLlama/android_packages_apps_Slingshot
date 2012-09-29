@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.trebuchet;
+package tk.projectllama.slingshot;
 
 import android.app.Application;
 import android.app.SearchManager;
@@ -26,7 +26,7 @@ import android.content.res.Configuration;
 import android.database.ContentObserver;
 import android.os.Handler;
 
-import com.cyanogenmod.trebuchet.R;
+import tk.projectllama.slingshot.R;
 
 import java.lang.ref.WeakReference;
 
@@ -36,7 +36,7 @@ public class LauncherApplication extends Application {
     private static boolean sIsScreenLarge;
     private static float sScreenDensity;
     private static int sLongPressTimeout = 300;
-    private static final String sSharedPreferencesKey = "com.cyanogenmod.trebuchet.prefs";
+    private static final String sSharedPreferencesKey = "tk.projectllama.slingshot.prefs";
     WeakReference<LauncherProvider> mLauncherProvider;
 
     @Override

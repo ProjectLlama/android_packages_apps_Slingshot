@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.trebuchet;
+package tk.projectllama.slingshot;
 
 import android.view.View;
 
-import com.cyanogenmod.trebuchet.DropTarget.DragObject;
+import tk.projectllama.slingshot.DropTarget.DragObject;
 
 /**
  * Interface defining an object that can originate a drag.

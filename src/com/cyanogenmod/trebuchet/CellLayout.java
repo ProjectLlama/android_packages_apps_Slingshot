@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.trebuchet;
+package tk.projectllama.slingshot;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -47,8 +47,8 @@ import android.view.animation.Animation;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.LayoutAnimationController;
 
-import com.cyanogenmod.trebuchet.R;
-import com.cyanogenmod.trebuchet.FolderIcon.FolderRingAnimator;
+import tk.projectllama.slingshot.R;
+import tk.projectllama.slingshot.FolderIcon.FolderRingAnimator;
 
 import java.util.ArrayList;
 import java.util.Arrays;

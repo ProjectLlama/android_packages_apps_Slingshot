@@ -1,4 +1,4 @@
-package com.cyanogenmod.trebuchet;
+package tk.projectllama.slingshot;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -13,8 +13,8 @@ import android.view.Gravity;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import com.cyanogenmod.trebuchet.R;
-import com.cyanogenmod.trebuchet.preference.PreferencesProvider;
+import tk.projectllama.slingshot.R;
+import tk.projectllama.slingshot.preference.PreferencesProvider;
 
 public class AppWidgetResizeFrame extends FrameLayout {
     private LauncherAppWidgetHostView mWidgetView;

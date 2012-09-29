@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.trebuchet.preference;
+package tk.projectllama.slingshot.preference;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.cyanogenmod.trebuchet.LauncherApplication;
-import com.cyanogenmod.trebuchet.Workspace;
-import com.cyanogenmod.trebuchet.AppsCustomizePagedView;
+import tk.projectllama.slingshot.LauncherApplication;
+import tk.projectllama.slingshot.Workspace;
+import tk.projectllama.slingshot.AppsCustomizePagedView;
 
 public final class PreferencesProvider {
-    public static final String PREFERENCES_KEY = "com.cyanogenmod.trebuchet_preferences";
+    public static final String PREFERENCES_KEY = "tk.projectllama.slingshot_preferences";
 
     public static final String PREFERENCES_CHANGED = "preferences_changed";
     public static class Interface {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.trebuchet;
+package tk.projectllama.slingshot;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -34,7 +34,7 @@ import android.view.View;
 import android.view.accessibility.AccessibilityManager;
 import android.widget.FrameLayout;
 
-import com.cyanogenmod.trebuchet.R;
+import tk.projectllama.slingshot.R;
 
 public class Cling extends FrameLayout {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.trebuchet;
+package tk.projectllama.slingshot;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -25,8 +25,8 @@ import android.content.pm.PackageManager;
 import android.os.Debug;
 import android.widget.Toast;
 
-import com.cyanogenmod.trebuchet.R;
-import com.cyanogenmod.trebuchet.preference.PreferencesProvider;
+import tk.projectllama.slingshot.R;
+import tk.projectllama.slingshot.preference.PreferencesProvider;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -48,7 +48,7 @@ public class InstallShortcutReceiver extends BroadcastReceiver {
 
     // A mime-type representing shortcut data
     public static final String SHORTCUT_MIMETYPE =
-            "com.cyanogenmod.trebuchet/shortcut";
+            "tk.projectllama.slingshot/shortcut";
 
     // The set of shortcuts that are pending install
     private static ArrayList<PendingInstallShortcutInfo> mInstallQueue =
