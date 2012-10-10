@@ -1,4 +1,3 @@
-
 /*
  * Copyright (C) 2008 The Android Open Source Project
  *
@@ -1551,12 +1550,13 @@ public final class Launcher extends Activity
             .setIcon(android.R.drawable.ic_menu_manage)
             .setIntent(manageApps)
             .setAlphabeticShortcut('M');
-        if (!getResources().getBoolean(R.bool.config_cyanogenmod)) {
+        /* We aren't CyanogenMod*/
+        //if (!getResources().getBoolean(R.bool.config_cyanogenmod)) {
             menu.add(0, MENU_PREFERENCES, 0, R.string.menu_preferences)
-                .setIcon(android.R.drawable.ic_menu_preferences)
-                .setIntent(preferences)
-                .setAlphabeticShortcut('O');
-        }
+            .setIcon(android.R.drawable.ic_menu_preferences)
+            .setIntent(preferences)
+            .setAlphabeticShortcut('O');
+        //}
         menu.add(0, MENU_SYSTEM_SETTINGS, 0, R.string.menu_settings)
             .setIcon(android.R.drawable.ic_menu_preferences)
             .setIntent(settings)
